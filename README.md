@@ -1,2 +1,2 @@
 # TODO-App
-A full stack CRUD application to keep track of your tasks. It was made while learning node js and mongodb.
+Basic Full stack CRUD application to keep track of users. Made with purpose of getting started with express and mongodb.
