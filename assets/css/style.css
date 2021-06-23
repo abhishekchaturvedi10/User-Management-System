@@ -18,6 +18,10 @@ a {
   font-family: "PT Sans", sans-serif;
 }
 
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .container {
   max-width: 1024px;
   margin: auto;
@@ -62,7 +66,6 @@ a {
   background: linear-gradient(to right, #8e2de2, --dark);
   -webkit-background-clip: text;
   background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
 }
 
 #header nav {
@@ -98,10 +101,18 @@ table {
   border-top: 1px solid var(--border);
 }
 
+.table td {
+  font-weight: 600;
+}
+
 .table td > a.btn {
   padding: 0.3em 1em;
   font-size: 1.1em;
   margin: 0 0.2em;
+}
+
+.table td > a.btn:hover {
+  cursor: pointer;
 }
 
 .table tr:hover {
